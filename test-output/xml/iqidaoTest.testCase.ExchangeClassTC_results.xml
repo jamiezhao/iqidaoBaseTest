@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="acitivity"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.001">
+  <properties />
+  
+            <testcase name="ExClass" time="0.0" classname="iqidaoTest.testCase.ExchangeClassTC">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

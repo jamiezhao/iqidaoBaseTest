@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="acitivity"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="62.500">
+  <properties />
+  
+  
+            <testcase name="createSeasonAndCourse" time="49.563" classname="iqidaoTest.testCase.ActivityTC" />
+                <testcase name="createActivity" time="12.937" classname="iqidaoTest.testCase.ActivityTC" />
+      
+</testsuite>

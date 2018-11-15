@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ALL suite-1" parallel="tests" thread-count="3" preserve-order="true">
+	<listeners>
+		<listener class-name="iqidaoTest.Utils.OverrideIAnnotationTransformer" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<!--<test verbose="2" preserve-order="true" name="AA1OPEN">
+		<classes>
+		    <class name="iqidaoTest.testCase.AAA1Open" />
+		</classes>
+	</test>
+	<test verbose="2" preserve-order="true" name="PublicTest">
+		<classes>
+			<class name="iqidaoTest.testCase.PublicNewsTC" />
+		</classes>
+	</test>
+	<test verbose="2" preserve-order="true" name="quizmenu">
+		<classes>
+			<class name="iqidaoTest.testCase.QuizTC" />
+		</classes>
+	</test>-->
+	<test preserve-order="true"  name="acitivity">
+		<groups>
+			<dependencies>
+			    <group name="AcitivityPaperQuiz" depends-on="CreateSeason" />
+				<group name="AcitivityAddUser" depends-on="AcitivityPaperQuiz" />
+				<group name="EditCombo" depends-on="AcitivityPaperQuiz" />
+				<group name="CreateComboLink" depends-on="EditCombo" />
+				<group name="Creaentrancetetest" depends-on="CreateComboLink" />
+				<group name="ExClass" depends-on="Creaentrancetetest" />
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="iqidaoTest.testCase.ActivityTC" />
+			<class name="iqidaoTest.testCase.CouserPaperQuizTC" />
+			<class name="iqidaoTest.testCase.ActivityUserTC" />
+			<class name="iqidaoTest.testCase.SignupComboTC" />
+			<class name="iqidaoTest.testCase.ActivityTComboTC" />
+			<class name="iqidaoTest.testCase.EntranceTestActivityTC" />
+			<class name="iqidaoTest.testCase.ExchangeClassTC" />
+		</classes>
+		</test>
+	<test preserve-order="true"  name="FrontWeb">
+	<classes>
+			<class name="iqidaoTest.testCase.FrontPaperAddTC" />
+		</classes>
+	</test>
+	</suite> <!-- Default suite -->

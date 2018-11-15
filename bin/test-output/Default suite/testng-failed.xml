@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="iqidaoTest.testCase.adminTestCase">
+        <methods>
+          <include name="createSeasonAndCourse"/>
+          <include name="adminLogin"/>
+          <include name="afterTest"/>
+          <include name="addActivityUser"/>
+          <include name="beforeTest"/>
+          <include name="deleteActivityUser"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.adminTestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

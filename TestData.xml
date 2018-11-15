@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testcases>
+<urls>
+	<WebFrontUrl>https://testing.iqidao.com</WebFrontUrl>
+	<CreatePapertUrl>https://testing.iqidao.com/papers_t</CreatePapertUrl>
+	<adminLoginUrl>https://testing.iqidao.com/admin001</adminLoginUrl>
+	<adminHomeUrl>https://testing.iqidao.com/admin001/home</adminHomeUrl>
+	<createActivityUrl>https://testing.iqidao.com/admin001/activity/create</createActivityUrl>
+	<activitysListUrl>https://testing.iqidao.com/admin001/activities</activitysListUrl>
+	<userCouponListUrl>https://testing.iqidao.com/admin001/coupon/user</userCouponListUrl>
+	<usersListUrl>https://testing.iqidao.com/admin001/users</usersListUrl>
+	<publicurl>https://testing.iqidao.com/admin001/resource/public/article</publicurl>
+	<paperSearchUrl>https://testing.iqidao.com/admin001/papers</paperSearchUrl>
+	<QuizClassUrl>https://testing.iqidao.com/admin001/quiz/classes</QuizClassUrl>
+	<QuizListUrl>https://testing.iqidao.com/admin001/quizzes</QuizListUrl>
+	<ExClassUrl>https://testing.iqidao.com/admin001/order/switch</ExClassUrl>
+	<CmoboListUrl>https://testing.iqidao.com/admin001/activity/combo</CmoboListUrl>
+</urls>
+<params>
+	<login> 
+		<frontName name="用户名">99000001250</frontName>
+		<userName name="用户名">186186</userName>
+		<passWord name="密码">111111</passWord>
+		<ChormeURL name="谷歌驱动路径">C:\\工作目录\\autoTest\\chromedriver33.exe</ChormeURL> 
+		 <!--<ChormeURL name="谷歌驱动路径">C:\\231\\chromedriver.exe</ChormeURL> -->
+	</login>
+	<activity>
+		<activityName name="活动名称">zlautotest源活动</activityName>
+		<activityName name="活动名称">zlautotest续报活动</activityName>
+		<activityName name="活动名称">zlautotest入学测</activityName>		
+		<activitytype name="活动类型">2</activitytype>	
+		<activitytype name="活动类型">2</activitytype>		
+		<activitytype name="活动类型">6</activitytype>		
+		<teacherName name="主讲老师姓名">赵老师1</teacherName>
+     	<activityPicture name="活动图片">C:\\Users\\zhaolu\\Downloads\\系统训练.png</activityPicture>
+     	<!--  <activityPicture name="活动图片">C:\\Users\\zhangjy\\Pictures\\aa.jpg</activityPicture>-->
+		<signupCount name="用户报名人数">0</signupCount>
+		<lowduan name="最低段位">-4</lowduan>
+		<price name="活动价格">1</price>
+		<signupStartTime name="报名开始时间">2018-11-01 00:00</signupStartTime>
+		<signupEndTime name="报名结束时间">2018-11-15 00:00</signupEndTime>
+		<activityStartTime name="活动开始时间">2018-11-16 00:00</activityStartTime>
+		<activityEndTime name="活动结束时间">2018-11-30 00:00</activityEndTime>
+		<seasonName name="赛季名称">第一季</seasonName>
+		<seasonPrice name="赛季价格">1</seasonPrice>
+		<itemName name="课程名称">第一课</itemName>
+		<itemStartTime name="课程开始时间">2018-03-16 19:30</itemStartTime>
+		<courseSyllabus name="课程大纲">C:\\Users\\zhaolu\\Downloads\\K级官子第1课时——研发完成.doc</courseSyllabus>
+		<!--<courseSyllabus name="课程大纲">C:\\Users\\zhangjy\\Desktop\\K级官子第1课时——研发完成.doc</courseSyllabus>-->
+		<AItime name="对弈条目持续时间">60</AItime>		
+		<gamecount name="对弈盘数">3</gamecount>		
+		<gamelevel name="对弈等级">-26</gamelevel>
+		<gamerul name="对弈规则">1</gamerul>								
+<!-- 	<courseSyllabus name="课程大纲">C:\\工作目录\\K级官子第1课时——研发完成.doc</courseSyllabus>-->
+		<activityUserName name="活动用户">zl棋手80</activityUserName>
+-		<activityUserName name="活动用户">zl棋手81</activityUserName>
+-		<activityUserName name="活动用户">zl棋手82</activityUserName>
+-		<ReportName name="报告名称">阶段性报告自定义</ReportName>
+-		<ReportStartTime name="阶段性报告开始时间">2018-07-10 14:50</ReportStartTime>
+-		<ReportEndTime name="阶段性报告结束时间">2018-07-13 14:50</ReportEndTime>
+-		<ReportSendTime name="阶段性报告发送时间">2018-07-13 15:00</ReportSendTime>
+	</activity>
+	<coupon>
+		<couponUserName name="优惠券用户">zl棋手80</couponUserName>
+		<couponPrice name="优惠券价格">1</couponPrice>
+		<couponStartTime name="优惠券开始时间">2018-03-16 00:00</couponStartTime>
+		<couponEndTime name="优惠券结束时间">2018-03-31 00:00</couponEndTime>
+	</coupon>
+	<user>
+		<userRealName name="真实姓名">zltest</userRealName>
+		<mobilePhone name="手机号">11111111111</mobilePhone>
+		<userGroup name="身份">100</userGroup>
+		<userPassword name="密码">111111</userPassword>
+	</user>
+	<quiz>
+		<quizclassname name="试题分类名称">分班测评</quizclassname>
+		<code name="code">13</code>
+		<newclassname name="新增试题分类">试题分类新增</newclassname>
+		<duanwei name="段位">1</duanwei>
+		<fenlei name="试题分类">1</fenlei>
+		<goal name="目标">1</goal>
+		<tixing name="题型">4</tixing>
+		<first1 name="黑显白先">1</first1>
+		<filename name="文件路径">C:\\工作目录\\1K黑先自动应答题-如何破入白空.sgf</filename>
+		<!-- <filename name="文件路径">C:\\试题\\1K黑先自动应答题-如何破入白空.sgf</filename> -->
+		<result name="试题结果类型">1</result>
+		<quizname name="试题名称">如何破入白空</quizname>
+        <!-- <newfile name="修改试题名称">C:\\试题\\1K黑先自动应答题-如何破入白空.sgf</newfile> -->
+        <newfile name="修改试题名称">C:\\工作目录\\1.0黑先选择，挂角套路的交换.sgf</newfile>
+        <newnamequiz name="修改试题名称">试题名称修改</newnamequiz>
+	</quiz>
+	<public>
+		<newname name="新闻名称">zjy_news</newname>
+		<modnewname name="修改新闻名称">zjy_mod</modnewname>
+		<newsclass name="类型">1</newsclass>
+		<!--<fileurl name="封面路径">C:\\工作目录\\测试图片.png</fileurl>-->
+		 <fileurl name="封面路径">C:\\Users\\zhangjy\\Desktop\\aa.jpg</fileurl> 
+	</public>
+<paper>
+		<exameName name="课程-考试">分支9考试</exameName>
+		<orginselect name="orginselect">3</orginselect>
+		<orginselect1 name="orginselect1">2</orginselect1>
+		<orginselect2 name="orginselect2">1</orginselect2>
+</paper>
+<exchangeclass>
+		<ToActivityName name="目的活动">活动测试</ToActivityName>
+		<ToSeason name="目的活动赛季">赛季一</ToSeason>
+</exchangeclass>
+<cmobo>
+		<Comboname name="续报组合名称">autotest续报组合1</Comboname>
+		<Originalprice name="原价">200</Originalprice>
+		<Nowprice name="现价">0</Nowprice>
+		<Registnum name="限制名额">100</Registnum>
+		<note name="续报备注信息">自动化案例添加续报</note>	
+		<Combonamemod name="续报名称修改">autotest续报组合1_mod</Combonamemod>	
+		<notemodmod name="续报备注信息修改">自动化案例添加续报_mod</notemodmod>	
+		<nowpricemod name="现价格修改">200</nowpricemod>		
+		<combostartime name="活动中续报展示时间">2018-04-27 18:14</combostartime>		
+		<comboendtime name="活动中续报展示时间">2019-04-27 18:14</comboendtime>				
+</cmobo>
+<testactivity>
+		<testpassscore name="入学测通过分数">80</testpassscore>				
+		<viewscoretime name="入学测可查分数时间">2018-04-27 18:14</viewscoretime>				
+		<dividetime name="入学测分班时间">2018-04-27 18:14</dividetime>				
+</testactivity>
+<frontpaper>
+		<Papername name="作业试卷名称">18暑I7二期王盛强班1天1卷</Papername>		
+	    <PaperStarttime name="作业试卷开始时间">2018-07-11 14:00</PaperStarttime>
+	    <frontquizurl name="导入试题路径">C:\\试题\\5D黑先选择，，如何选择下一手.sgf</frontquizurl>	
+	     <dayuselect name="试题大域">5</dayuselect>					
+</frontpaper>
+</params>
+</testcases>
+
+

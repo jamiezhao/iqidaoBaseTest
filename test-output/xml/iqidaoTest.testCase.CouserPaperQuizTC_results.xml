@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="acitivity"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="0.008">
+  <properties />
+  
+            <testcase name="ExercisesAfter" time="0.0" classname="iqidaoTest.testCase.CouserPaperQuizTC">
+          <skipped />
+    </testcase>
+            <testcase name="TeatPaper" time="0.0" classname="iqidaoTest.testCase.CouserPaperQuizTC">
+          <skipped />
+    </testcase>
+            <testcase name="PreparePaper" time="0.0" classname="iqidaoTest.testCase.CouserPaperQuizTC">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

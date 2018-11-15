@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [ALL suite-1]" parallel="tests">
+  <listeners>
+    <listener class-name="iqidaoTest.Utils.OverrideIAnnotationTransformer"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="quizmenu(failed)" parallel="tests">
+    <classes>
+      <class name="iqidaoTest.testCase.ActivityUserTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityUserTC -->
+      <class name="iqidaoTest.testCase.PublicNewsTC">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.PublicNewsTC -->
+      <class name="iqidaoTest.testCase.EntranceTestActivityTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.EntranceTestActivityTC -->
+      <class name="iqidaoTest.testCase.ActivityTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTC -->
+      <class name="iqidaoTest.testCase.QuizTC">
+        <methods>
+          <include name="QuizAdd"/>
+          <include name="BeforeSuite"/>
+          <include name="afterTest"/>
+          <include name="QuizMod"/>
+          <include name="QuizClassAdd"/>
+          <include name="QuizDel"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.QuizTC -->
+      <class name="iqidaoTest.testCase.ActivityTComboTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTComboTC -->
+      <class name="iqidaoTest.testCase.SignupComboTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.SignupComboTC -->
+      <class name="iqidaoTest.testCase.ExchangeClassTC">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ExchangeClassTC -->
+      <class name="iqidaoTest.testCase.CouserPaperQuizTC">
+        <methods>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.CouserPaperQuizTC -->
+      <class name="iqidaoTest.testCase.FrontPaperAddTC">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.FrontPaperAddTC -->
+      <class name="iqidaoTest.testCase.AAA1Open">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.AAA1Open -->
+    </classes>
+  </test> <!-- quizmenu(failed) -->
+  <test name="PublicTest(failed)" parallel="tests">
+    <classes>
+      <class name="iqidaoTest.testCase.PublicNewsTC">
+        <methods>
+          <include name="publicclumnMod"/>
+          <include name="BeforeTest"/>
+          <include name="publicclumnDel"/>
+          <include name="PublicclumnAdd"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.PublicNewsTC -->
+      <class name="iqidaoTest.testCase.ActivityUserTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityUserTC -->
+      <class name="iqidaoTest.testCase.EntranceTestActivityTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.EntranceTestActivityTC -->
+      <class name="iqidaoTest.testCase.ActivityTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTC -->
+      <class name="iqidaoTest.testCase.ActivityTComboTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTComboTC -->
+      <class name="iqidaoTest.testCase.QuizTC">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.QuizTC -->
+      <class name="iqidaoTest.testCase.SignupComboTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.SignupComboTC -->
+      <class name="iqidaoTest.testCase.ExchangeClassTC">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ExchangeClassTC -->
+      <class name="iqidaoTest.testCase.CouserPaperQuizTC">
+        <methods>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.CouserPaperQuizTC -->
+      <class name="iqidaoTest.testCase.FrontPaperAddTC">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.FrontPaperAddTC -->
+      <class name="iqidaoTest.testCase.AAA1Open">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.AAA1Open -->
+    </classes>
+  </test> <!-- PublicTest(failed) -->
+  <test name="FrontWeb(failed)" parallel="tests">
+    <classes>
+      <class name="iqidaoTest.testCase.ActivityUserTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityUserTC -->
+      <class name="iqidaoTest.testCase.PublicNewsTC">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.PublicNewsTC -->
+      <class name="iqidaoTest.testCase.EntranceTestActivityTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.EntranceTestActivityTC -->
+      <class name="iqidaoTest.testCase.ActivityTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTC -->
+      <class name="iqidaoTest.testCase.ActivityTComboTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTComboTC -->
+      <class name="iqidaoTest.testCase.QuizTC">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.QuizTC -->
+      <class name="iqidaoTest.testCase.SignupComboTC">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.SignupComboTC -->
+      <class name="iqidaoTest.testCase.ExchangeClassTC">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ExchangeClassTC -->
+      <class name="iqidaoTest.testCase.CouserPaperQuizTC">
+        <methods>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.CouserPaperQuizTC -->
+      <class name="iqidaoTest.testCase.FrontPaperAddTC">
+        <methods>
+          <include name="CreatPaper"/>
+          <include name="afterTest"/>
+          <include name="InsertQuiz"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.FrontPaperAddTC -->
+      <class name="iqidaoTest.testCase.AAA1Open">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.AAA1Open -->
+    </classes>
+  </test> <!-- FrontWeb(failed) -->
+  <test name="acitivity(failed)" parallel="tests">
+    <classes>
+      <class name="iqidaoTest.testCase.ActivityUserTC">
+        <methods>
+          <include name="addActivityUser"/>
+          <include name="beforeTest"/>
+          <include name="deleteActivityUser"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityUserTC -->
+      <class name="iqidaoTest.testCase.PublicNewsTC">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.PublicNewsTC -->
+      <class name="iqidaoTest.testCase.EntranceTestActivityTC">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="CreateEntranceTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.EntranceTestActivityTC -->
+      <class name="iqidaoTest.testCase.ActivityTC">
+        <methods>
+          <include name="createActivity"/>
+          <include name="createSeasonAndCoursetest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTC -->
+      <class name="iqidaoTest.testCase.ActivityTComboTC">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="ComboLink"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ActivityTComboTC -->
+      <class name="iqidaoTest.testCase.QuizTC">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.QuizTC -->
+      <class name="iqidaoTest.testCase.SignupComboTC">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="EditCombo"/>
+          <include name="CreateCombo"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.SignupComboTC -->
+      <class name="iqidaoTest.testCase.ExchangeClassTC">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="afterTest"/>
+          <include name="ExClass"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.ExchangeClassTC -->
+      <class name="iqidaoTest.testCase.CouserPaperQuizTC">
+        <methods>
+          <include name="ExercisesAfter"/>
+          <include name="TeatPaper"/>
+          <include name="BeforeTest"/>
+          <include name="PreparePaper"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.CouserPaperQuizTC -->
+      <class name="iqidaoTest.testCase.FrontPaperAddTC">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.FrontPaperAddTC -->
+      <class name="iqidaoTest.testCase.AAA1Open">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- iqidaoTest.testCase.AAA1Open -->
+    </classes>
+  </test> <!-- acitivity(failed) -->
+</suite> <!-- Failed suite [ALL suite-1] -->

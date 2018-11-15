@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite-1" duration-ms="74608" started-at="2018-11-15T08:46:41Z" finished-at="2018-11-15T08:47:56Z">
+    <groups>
+    </groups>
+    <test name="acitivity" duration-ms="74608" started-at="2018-11-15T08:46:41Z" finished-at="2018-11-15T08:47:56Z">
+      <class name="iqidaoTest.testCase.ActivityTC">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:iqidaoTest.testCase.ActivityTC@26f67b76]" name="beforeTest" is-config="true" duration-ms="12060" started-at="2018-11-15T16:46:41Z" finished-at="2018-11-15T16:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createActivity()[pri:0, instance:iqidaoTest.testCase.ActivityTC@26f67b76]" name="createActivity" duration-ms="12937" started-at="2018-11-15T16:46:54Z" finished-at="2018-11-15T16:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createActivity -->
+        <test-method status="PASS" signature="createSeasonAndCourse()[pri:0, instance:iqidaoTest.testCase.ActivityTC@26f67b76]" name="createSeasonAndCourse" duration-ms="49563" started-at="2018-11-15T16:47:06Z" depends-on-methods="iqidaoTest.testCase.ActivityTC.createActivity" finished-at="2018-11-15T16:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSeasonAndCourse -->
+      </class> <!-- iqidaoTest.testCase.ActivityTC -->
+    </test> <!-- acitivity -->
+  </suite> <!-- suite-1 -->
+</testng-results>
