@@ -38,9 +38,9 @@
 		<lowduan name="最低段位">-4</lowduan>
 		<price name="活动价格">1</price>
 		<signupStartTime name="报名开始时间">2018-11-01 00:00</signupStartTime>
-		<signupEndTime name="报名结束时间">2018-11-15 00:00</signupEndTime>
-		<activityStartTime name="活动开始时间">2018-11-16 00:00</activityStartTime>
-		<activityEndTime name="活动结束时间">2018-11-30 00:00</activityEndTime>
+		<signupEndTime name="报名结束时间">2018-11-30 00:00</signupEndTime>
+		<activityStartTime name="活动开始时间">2018-11-30 00:00</activityStartTime>
+		<activityEndTime name="活动结束时间">2019-01-30 00:00</activityEndTime>
 		<seasonName name="赛季名称">第一季</seasonName>
 		<seasonPrice name="赛季价格">1</seasonPrice>
 		<itemName name="课程名称">第一课</itemName>
